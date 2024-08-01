@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+nav{
+    height: 80px;
+    background: #c3c1f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 70px;
+}
+.ambatu{
+    color: #4c4b67;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 2rem;
+}
+.char{
+    background: #359697;
+}
+.char-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 95vh;
+    padding: 0rem 70px;
+}
+.bagian-kiri{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #aadd8a;
+    padding: 0rem 2rem;
+}
+.bagian-kiri h1{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+.bagian-kiri p{
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+}
+button{
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    color: 	#e3f07b;
+    background: #403a27;
+    cursor: pointer;
+    border-radius: 50px;
+}
+button:hover{
+    background: #F4D8B7;
+    color: 	#7A6858;
+}
+.bagian-kanan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 2rem;
+}
+    
+@media screen (max-width: 768px){
+    .char-container{
+        grid-template-columns: 1fr;
+    }
+}
