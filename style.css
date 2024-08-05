@@ -69,10 +69,15 @@ button:hover{
 }
     
 @media screen (max-width: 2400px){
-    .char-container{
+    .bagian-kanan{
         width: 90px;
         height: 200px;
 
     }
-    
+    .bagian-kiri p{
+     font-size: 10px;
+    }
+    .bagian-kiri h1{
+        font-size: 20px;
+    }
 }
