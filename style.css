@@ -69,7 +69,7 @@ button:hover{
 }
     
 @media screen (max-width: 2400px){
-    .bagian-kanan{
+    .char-image{
         width: 90px;
         height: 200px;
 
