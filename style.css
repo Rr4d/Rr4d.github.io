@@ -70,8 +70,8 @@ button:hover{
     
 @media only screen and (max-width: 768px){
     .char-image{
-        width: 49px;
-        height: 70px;
+        width: 42px;
+        height: 60px;
     }
     .bagian-kiri p{
      font-size: 15px;
@@ -82,5 +82,8 @@ button:hover{
     button{
         font-size: 0.5rem;
         padding: 0.5rem 1.5rem;
+    }
+    .char-container{
+        padding: 0rem 35px;
     }
 }
