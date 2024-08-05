@@ -68,7 +68,7 @@ button:hover{
     padding: 0rem 2rem;
 }
     
-@media screen (min-width: 600px){
+@media (min-width: 500px){
     .char-image{
         width: 90px;
         height: 200px;
