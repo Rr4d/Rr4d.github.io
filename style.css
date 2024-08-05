@@ -83,4 +83,9 @@ button:hover{
         font-size: 0.5rem;
         padding: 0.5rem 1.5rem;
     }
+    .bagian-kiri{
+        display: flex;
+    flex-direction: column;
+    justify-content: left;
+    }
 }
