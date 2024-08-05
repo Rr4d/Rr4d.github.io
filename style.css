@@ -74,9 +74,11 @@ button:hover{
         height: 100px;
     }
     .bagian-kiri p{
-     font-size: 10px;
+     font-size: 200px;
     }
     .bagian-kiri h1{
-        font-size: 20px;
+        font-size: 400px;
+    }
+    button{
     }
 }
